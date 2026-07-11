@@ -1,0 +1,1 @@
+import "jsr:@supabase/functions-js/edge-runtime.d.ts";Deno.serve(()=>new Response(JSON.stringify({reply:"AI provider not enabled yet."}),{headers:{"Content-Type":"application/json"}}));
